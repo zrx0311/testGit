@@ -61,4 +61,8 @@ public class MapperTest {
         loginTicket.setExpired(new Date(System.currentTimeMillis() + 1000*60*10));
         loginTicketMapper.insertLoginTicket(loginTicket);
     }
+    @Test
+    public void test3(){
+        System.out.println("111");
+    }
 }
